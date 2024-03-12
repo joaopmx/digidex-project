@@ -1,0 +1,13 @@
+:root {
+
+    /* fontes */
+
+    --black-font: #000;
+    --white-font-header: #fff;
+    --gray-arrow: #dad6d6;
+
+    /* backgrounds */
+    --main-bg: #fff;
+    --header-bg:linear-gradient(#dc36de, #e99cf3);
+    --stats-bg: #f2f0f0;
+}

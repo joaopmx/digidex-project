@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digidex</title>
+
+    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/vars.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/media-query.css">
+</head>
+
+<body>
+    <div class="main__container">
+        <div class="box__main">
+            <div class="box__character">
+                <a href="#" class="left__arrow arrow">&lt;</a>
+                <img src="#" alt="" class="character">
+                <a href="#" class="right__arrow arrow">&gt;</a>
+            </div>
+
+            <div class="box__info">
+                <div class="header__info">
+                    <span class="header__id"></span>
+                    <h1 class="header__name"></h1>
+                </div>
+                <div class="stats__info">
+                    <ul>
+                        <li class="stats">
+                            <span class="stats__title">Level</span>
+                            <span class="stats__value" id="level"></span>
+                        </li>
+                        <li class="stats">
+                            <span class="stats__title">Attribute</span>
+                            <span class="stats__value" id="attribute"></span>
+                        </li>
+                        <li class="stats">
+                            <span class="stats__title">Type</span>
+                            <span class="stats__value" id="type"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="character__description">
+                    <div class="character__fields">
+                    </div>
+                    <form class="form__search">
+                        <input type="search" class="input__search" required>
+                        <button type="submit" id="search">
+                            <img src="/assets/img/lupa.svg" alt="lupa">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
